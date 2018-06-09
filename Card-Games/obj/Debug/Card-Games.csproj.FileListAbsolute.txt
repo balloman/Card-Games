@@ -1,7 +1,7 @@
 C:\Users\benar\Source\Repos\Card-Games\Card-Games\obj\Debug\Card-Games.csprojAssemblyReference.cache
 C:\Users\benar\Source\Repos\Card-Games\Card-Games\obj\Debug\Card-Games.csproj.CoreCompileInputs.cache
-C:\Users\benar\Source\Repos\Card-Games\Card-Games\bin\Debug\Card-Games.exe.config
-C:\Users\benar\Source\Repos\Card-Games\Card-Games\bin\Debug\Card-Games.exe
-C:\Users\benar\Source\Repos\Card-Games\Card-Games\bin\Debug\Card-Games.pdb
-C:\Users\benar\Source\Repos\Card-Games\Card-Games\obj\Debug\Card-Games.exe
-C:\Users\benar\Source\Repos\Card-Games\Card-Games\obj\Debug\Card-Games.pdb
+C:\Users\benar\Source\Repos\Card-Games\Card-Games\bin\Debug\CardGames.exe.config
+C:\Users\benar\Source\Repos\Card-Games\Card-Games\bin\Debug\CardGames.exe
+C:\Users\benar\Source\Repos\Card-Games\Card-Games\bin\Debug\CardGames.pdb
+C:\Users\benar\Source\Repos\Card-Games\Card-Games\obj\Debug\CardGames.exe
+C:\Users\benar\Source\Repos\Card-Games\Card-Games\obj\Debug\CardGames.pdb
