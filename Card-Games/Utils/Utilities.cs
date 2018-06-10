@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace CardGames.Utils
 {
-
+	//I copy and pasted all of this and it's too hard to explain, but it basically gets the list of games from the app.config xml file
 	public static class Utilities
 	{
 		public static class ConfigUtilities

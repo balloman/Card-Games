@@ -8,21 +8,26 @@ using CardGames.Utils;
 
 namespace CardGames.Games
 {
+	//inherits from my game class
     class Blackjack : Utils.Game
     {
+		//Create a list of cards that is a hand, these work like arrays
 		public List<Card> Hand = new List<Card>();
 		public int CurrentScore;
 
+		//constructor that sets the name and number of players as required in the game class
         public Blackjack(){
             Name = "Blackjack";
             Players = 1;
 			CurrentScore = 0;
 		}
 
+
 		private void HandLogic()
 		{
 			Console.WriteLine("Current Hand =");
 			CurrentScore = 0;
+			//iterates over the hand and adds up the total
 			foreach (Card element in Hand)
 			{
 				Console.Write("{0} of {1}, ", element.Name, element.Suit);
@@ -35,6 +40,7 @@ namespace CardGames.Games
 			
 		}
 
+		//overridden function from Game class
 		protected override void OnEnter()
 		{
 			Hand.Add(new Card());
@@ -58,6 +64,7 @@ namespace CardGames.Games
 
 		private void Hit()
 		{
+			//Adds a new card to the hand
 			Hand.Add(new Card());
 		}
 
