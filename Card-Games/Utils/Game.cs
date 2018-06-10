@@ -13,8 +13,9 @@ namespace CardGames.Utils
 		public void Enter()
 		{
 			Console.WriteLine("Starting " + Name + "...");
-			onEnter();
+			OnEnter();
 		}
-		protected abstract void onEnter();
+		protected abstract void OnEnter();
+		protected abstract void EndGame();
     }
 }
