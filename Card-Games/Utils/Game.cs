@@ -20,6 +20,7 @@ namespace CardGames.Utils
 			 */
         public string Name { get; set; }
         public int Players { get; set; }
+        public bool EndOfGame { get; set; }
 		/* This class actually starts the game
 		 */
 		public void Enter()

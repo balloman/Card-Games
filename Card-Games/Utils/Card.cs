@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace CardGames.Utils
 {
-	class Card
+	public class Card
 	{
 		private static Dictionary<string, int> CardValues = new Dictionary<string, int>()
 		{
@@ -31,9 +31,9 @@ namespace CardGames.Utils
 		public string Suit;
 		public Card()
 		{
-			Random random = new Random();
-			int seed1 = random.Next(CardValues.Count);
-			int seed2 = random.Next(SuitsList.Count<string>());
+			RNG random = new RNG();
+			int seed1 = random.RandInt(CardValues.Count);
+			int seed2 = random.RandInt(SuitsList.Count<string>());
 			Name = CardValues.Keys.ElementAt<string>(seed1);
 			Value = CardValues[Name];
 			Suit = SuitsList[seed2];
